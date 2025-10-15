@@ -169,7 +169,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "b50e5e432ccd2cef",
+  "active": "2453b8e5b399098a",
   "lastOpenFiles": [
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Isotope exchange.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
@@ -186,12 +186,12 @@
     "Tritium inventory in PFC/Theory, models/Analyze trap occupancy rates over time.md",
     "Tritium inventory in PFC/Theory, models/Analytical expression for long-term bulk inventory build-up.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Time-dependent temperature profiles.md",
-    "Tritium inventory in PFC/figures/combined_mobile_predicted_pulse6.png",
-    "Tritium inventory in PFC/figures",
-    "Tritium inventory in PFC/figures/inventory_comparison_case_1MW.png",
-    "Tritium inventory in PFC/figures/inventory_comparison_case_10MW.png",
-    "Tritium inventory in PFC/figures/inventory_comparison_case_100KW.png",
-    "Tritium inventory in PFC/figures/inventory_comparison_case_500KW.png",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/combined_mobile_predicted_pulse6.png",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_1MW.png",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_10MW.png",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_100KW.png",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_500KW.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Truncated Gaussian outside the material - Lower implantation flux.md",
     "Untitled.md",
     "Tritium inventory in PFC/Theory, models/Study_how_much_tungsten_traps_are_filled_after_the.md",
