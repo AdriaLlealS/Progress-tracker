@@ -18,10 +18,10 @@ The analytical equation reproduced exactly the maximum concentration of mobile s
 
 After checking the validity of the approximation in our cases, 100 consecutive simulations consisting of an ~800s pulse followed by roughly 100,000s of waiting time were ran, with and without the implementation of the implantation approximation. Then, pre-bulk and bulk inventories and build-ups over time were compared and show little relative discrepancies:
 
-![[inventory_comparison_case_1MW.png]]
+![](figures/inventory_comparison_case_1MW.png)]()
 
-![[inventory_comparison_case_10MW.png]]
+![](figures/inventory_comparison_case_10MW.png)
 
-![[inventory_comparison_case_100KW.png]]
+![](figures/inventory_comparison_case_100KW.png)
 
-![[inventory_comparison_case_500KW.png]]
+![](inventory_comparison_case_500KW.png)
