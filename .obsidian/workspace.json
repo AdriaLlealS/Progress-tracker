@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "5eaec016812ba1eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "be0838b97a148f17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b50e5e432ccd2cef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adaptative time-stepping"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5814e5e2b4bfc388",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4b6ab34c94ab914",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2453b8e5b399098a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7effd68d88d0c88f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8fe92d81f2fc09d8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a07b4398b5fff979",
+    "type": "split",
+    "children": [
+      {
+        "id": "962c8951b0449886",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "578397a64494a7cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Adaptative time-stepping"
+            }
+          },
+          {
+            "id": "ba62693feb655ff0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Adaptative time-stepping"
+            }
+          },
+          {
+            "id": "91da4ae345becbcf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd149d029c8dfc04",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Adaptative time-stepping"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b50e5e432ccd2cef",
+  "lastOpenFiles": [
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Restart simulations.md",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Mesh adjustments to mitigate undershots at high gradient regions.md",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+    "2025-10-15.md",
+    "Untitled.canvas",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Sanity check.md",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Run 100 consecutive sims of pulse+ waiting time.md",
+    "Tritium inventory in PFC/Theory, models/Tungsten temperature model.md",
+    "Tritium inventory in PFC/Theory, models/Implantation flux and depth.md",
+    "Tritium inventory in PFC/Theory, models/Analyze trap occupancy rates over time.md",
+    "Tritium inventory in PFC/Theory, models/Analytical expression for long-term bulk inventory build-up.md",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Time-dependent temperature profiles.md",
+    "Tritium inventory in PFC/figures/combined_mobile_predicted_pulse6.png",
+    "Tritium inventory in PFC/figures",
+    "Tritium inventory in PFC/figures/inventory_comparison_case_1MW.png",
+    "Tritium inventory in PFC/figures/inventory_comparison_case_10MW.png",
+    "Tritium inventory in PFC/figures/inventory_comparison_case_100KW.png",
+    "Tritium inventory in PFC/figures/inventory_comparison_case_500KW.png",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Truncated Gaussian outside the material - Lower implantation flux.md",
+    "Untitled.md",
+    "Tritium inventory in PFC/Theory, models/Study_how_much_tungsten_traps_are_filled_after_the.md",
+    "Tritium inventory in PFC/Theory, models/Check_that_FESTIM_is_actually_running_the_simulati.md",
+    "Tritium inventory in PFC/FESTIM_simulations/Untitled.md",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1",
+    "Tritium inventory in PFC/FESTIM_simulations",
+    "Tritium inventory in PFC/Theory, models",
+    "Tritium inventory in PFC/FESTIM 1/Progress",
+    "Welcome.md",
+    "Tritium inventory in PFC/FESTIM 2",
+    "Tritium inventory in PFC/FESTIM 1",
+    "Tritium inventory in PFC"
+  ]
+}
