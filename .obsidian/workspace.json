@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adaptative time-stepping"
+              "title": "Surface concentration BC implementation"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Adaptative time-stepping"
+              "title": "Backlinks for Surface concentration BC implementation"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Adaptative time-stepping"
+              "title": "Outgoing links from Surface concentration BC implementation"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Adaptative time-stepping"
+              "title": "Outline of Surface concentration BC implementation"
             }
           }
         ]
@@ -171,9 +171,10 @@
   },
   "active": "b50e5e432ccd2cef",
   "lastOpenFiles": [
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
+    "README.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Restart simulations.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Mesh adjustments to mitigate undershots at high gradient regions.md",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
     "2025-10-15.md",
     "Untitled.canvas",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
