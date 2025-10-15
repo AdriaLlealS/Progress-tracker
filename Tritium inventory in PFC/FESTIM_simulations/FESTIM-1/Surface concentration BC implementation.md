@@ -12,7 +12,7 @@ where $c_m$ is the concentration of mobile H at the surface, $\phi_{imp}$ is the
 
 After implementing this new BC, simulation efficiency was significantly improved yielding similar results as before:
 
-![](figures/combined_mobile_predicted_pulse6.png)]
+![](figures/combined_mobile_predicted_pulse6.png)
 The analytical equation reproduced exactly the maximum concentration of mobile species near the surface for different heat loads and power profiles. Note that when simulating an implantation flux and a surface recombination BC, the maximum mobile concentration was attained at about $9nm$ or approximately $2R_p$ .
 
 After checking the validity of the approximation in our cases, 100 consecutive simulations consisting of an ~800s pulse followed by roughly 100,000s of waiting time were ran, with and without the implementation of the implantation approximation. Then, pre-bulk and bulk inventories and build-ups over time were compared and show little relative discrepancies:
