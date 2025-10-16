@@ -1,0 +1,5 @@
+· **Run again a similar scheme of simulations as the ones done in FESTIM-1. We will run 100 consecutive simulations each of them consisting in a pulse of ~600 s followed by a waiting time of roughly 100,000s. **
+
+o   Progress: Ongoing
+
+o   Comments: I already managed to restart simulations in FESTIM-2 but couldn't check if the initial conditions were correctly loaded and matched the output of the previous simulation. Right now I am setting up the script to run N consecutive simulations, loading the last profiles of the previous simulations as initial conditions. This will be made for the same 4 cases as before, considering heat loads of $10\hspace{2mm}MW/m^2,\hspace{2mm}1\hspace{2mm}MW/m^2,\hspace{2mm}500\hspace{2mm}kW/m^2\hspace{2mm}and\hspace{2mm}100\hspace{2mm}kW/m^2$. I need to confirm that initial conditions are being loaded correctly and then the results will be compared to the ones obtained in FESTIM-1.
