@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Surface concentration BC implementation"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Surface concentration BC implementation"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Surface concentration BC implementation"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Surface concentration BC implementation"
             }
           }
         ]
@@ -171,12 +171,15 @@
   },
   "active": "b50e5e432ccd2cef",
   "lastOpenFiles": [
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_500KW.png",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_10MW.png",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_100KW.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
+    "README.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Time-dependent temperature profiles.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/profiles_t_0s.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Isotope exchange.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
-    "README.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Restart simulations.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Mesh adjustments to mitigate undershots at high gradient regions.md",
     "2025-10-15.md",
@@ -190,9 +193,6 @@
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/combined_mobile_predicted_pulse6.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_1MW.png",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_10MW.png",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_100KW.png",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_500KW.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Truncated Gaussian outside the material - Lower implantation flux.md",
     "Untitled.md",
     "Tritium inventory in PFC/Theory, models/Study_how_much_tungsten_traps_are_filled_after_the.md",

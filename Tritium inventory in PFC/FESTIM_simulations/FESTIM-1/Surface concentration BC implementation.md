@@ -24,4 +24,5 @@ After checking the validity of the approximation in our cases, 100 consecutive s
 
 ![](figures/inventory_comparison_case_100KW.png)
 
-![](inventory_comparison_case_500KW.png)
+
+![](figures/inventory_comparison_case_500KW.png)
