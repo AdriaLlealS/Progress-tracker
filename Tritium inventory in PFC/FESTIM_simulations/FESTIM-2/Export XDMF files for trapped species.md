@@ -10,4 +10,7 @@ https://festim.discourse.group/t/issues-with-advection-term-and-xdmf-export/145/
 
 After implementing the solution, I am finally able to correctly process and visualize concentration profiles of all mobile and trapped species.
 
-![](figures/profiles_t_680s.png)
+![](figures/profiles_t_680s.png)![](figures/profiles_t_3000s.png)![](figures/profiles_t_20000s.png)![](figures/profiles_t_100000s(1).png)
+We can now easily check whether the simulation is running correctly during the waiting time or iterating without actually solving the equations and keeping constant concentrations.
+
+Next step will be use this in order to test the restart function that I had already implemented.
