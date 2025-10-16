@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tritium inventory in PFC/Theory, models/SS316L Validation of implantation flux approximation.md",
+                "file": "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SS316L Validation of implantation flux approximation"
+              "title": "Last updates (ongoing or done tasks)"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tritium inventory in PFC/Theory, models/SS316L Validation of implantation flux approximation.md",
+                "file": "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SS316L Validation of implantation flux approximation"
+              "title": "Backlinks for Last updates (ongoing or done tasks)"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tritium inventory in PFC/Theory, models/SS316L Validation of implantation flux approximation.md",
+                "file": "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SS316L Validation of implantation flux approximation"
+              "title": "Outgoing links from Last updates (ongoing or done tasks)"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tritium inventory in PFC/Theory, models/SS316L Validation of implantation flux approximation.md",
+                "file": "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SS316L Validation of implantation flux approximation"
+              "title": "Outline of Last updates (ongoing or done tasks)"
             }
           }
         ]
@@ -171,19 +171,22 @@
   },
   "active": "b50e5e432ccd2cef",
   "lastOpenFiles": [
+    "Tritium inventory in PFC/Theory, models/Tungsten temperature model.md",
+    "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Export XDMF files for trapped species.md",
+    "Tritium inventory in PFC/To do.md",
+    "README.md",
+    "Tritium inventory in PFC/Theory, models/SS316L Validation of implantation flux approximation.md",
     "Tritium inventory in PFC/Theory, models/figures/comparison_max_surface_concs.png",
     "Tritium inventory in PFC/Theory, models/Implantation flux and depth.md",
     "Tritium inventory in PFC/Theory, models/Analyze trap occupancy rates over time.md",
     "Tritium inventory in PFC/Theory, models/Analytical expression for long-term bulk inventory build-up.md",
-    "Tritium inventory in PFC/Theory, models/SS316L Validation of implantation flux approximation.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Sanity check.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Run 100 consecutive sims of pulse+ waiting time.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Restart simulations.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Mesh adjustments to mitigate undershots at high gradient regions.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Adaptative time-stepping.md",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Export XDMF files for trapped species.md",
-    "Tritium inventory in PFC/Theory, models/Tungsten temperature model.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/profiles_t_100000s(1).png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/profiles_t_20000s.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/profiles_t_3000s.png",
@@ -195,11 +198,9 @@
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_500KW.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_10MW.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/inventory_comparison_case_100KW.png",
-    "README.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/profiles_t_0s.png",
     "2025-10-15.md",
     "Untitled.canvas",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures/combined_mobile_predicted_pulse6.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/figures",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Truncated Gaussian outside the material - Lower implantation flux.md",
     "Untitled.md",
