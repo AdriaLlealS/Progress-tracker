@@ -1,4 +1,4 @@
-·    **Check that FESTIM is actually running the simulations with the parameters that we want (Temperature profile and evolution, implantation flux…) **
+·   **Check that FESTIM is actually running the simulations with the parameters that we want (Temperature profile and evolution, implantation flux…).**
 
 o   Progress: Done
 
