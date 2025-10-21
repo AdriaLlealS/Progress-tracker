@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Run restart simulations and compare inventory results with FESTIM-1's simulations.md",
+                "file": "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Run restart simulations and compare inventory results with FESTIM-1's simulations"
+              "title": "Last updates (ongoing or done tasks)"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Run restart simulations and compare inventory results with FESTIM-1's simulations.md",
+                "file": "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Run restart simulations and compare inventory results with FESTIM-1's simulations"
+              "title": "Backlinks for Last updates (ongoing or done tasks)"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Run restart simulations and compare inventory results with FESTIM-1's simulations.md",
+                "file": "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Run restart simulations and compare inventory results with FESTIM-1's simulations"
+              "title": "Outgoing links from Last updates (ongoing or done tasks)"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Run restart simulations and compare inventory results with FESTIM-1's simulations.md",
+                "file": "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Run restart simulations and compare inventory results with FESTIM-1's simulations"
+              "title": "Outline of Last updates (ongoing or done tasks)"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "b50e5e432ccd2cef",
   "lastOpenFiles": [
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Run restart simulations and compare inventory results with FESTIM-1's simulations.md",
+    "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/inventories(2).png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/inventory_evolution_case_2.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/inventories.png",
@@ -179,10 +181,8 @@
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/inventory_evolution_case_4.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Implement new surface concentration function.md",
     "README.md",
-    "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
     "Tritium inventory in PFC/To do.md",
     "2025-10-15.md",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Run restart simulations and compare inventory results with FESTIM-1's simulations.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Surface concentration BC implementation.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Sanity check.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Run 100 consecutive sims of pulse+ waiting time.md",
@@ -200,7 +200,6 @@
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/profiles_t_100000s(1).png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/profiles_t_20000s.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/profiles_t_3000s.png",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/profiles_t_680s.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures",
     "Tritium inventory in PFC/Theory, models/figures",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Time-dependent temperature profiles.md",
