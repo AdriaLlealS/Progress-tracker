@@ -1,4 +1,4 @@
-· **Rethink about the equations that describe Temperature in the Tungsten slabs or their ranges of valid heat loads**
+· **Rethink about the equations that describe Temperature in the Tungsten slabs or their ranges of valid heat loads**.
 
 o   Progress: Ongoing
 
