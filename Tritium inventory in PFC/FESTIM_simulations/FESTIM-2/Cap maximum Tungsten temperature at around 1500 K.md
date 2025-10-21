@@ -1,4 +1,4 @@
-· **Current Temperature model for tungsten leads to surface temperatures over 2200 K for heat loads of $10 \hspace{2mm} MW/m^2$. This value exceeds the maximum expected temperatures reached in ITER's PFC. **
+· **Current Temperature model for tungsten leads to surface temperatures over 2200 K for heat loads of $10 \hspace{2mm} MW/m^2$. This value exceeds the maximum expected temperatures reached in ITER's PFC**.
 
 o   Progress: Ongoing
 

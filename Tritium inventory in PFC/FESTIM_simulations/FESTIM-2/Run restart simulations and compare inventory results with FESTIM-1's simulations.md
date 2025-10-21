@@ -1,4 +1,4 @@
-· **Run again a similar scheme of simulations as the ones done in FESTIM-1. We will run 100 consecutive simulations each of them consisting in a pulse of ~600 s followed by a waiting time of roughly 100,000s. **
+· **Run again a similar scheme of simulations as the ones done in FESTIM-1. We will run 100 consecutive simulations each of them consisting in a pulse of ~600 s followed by a waiting time of roughly 100,000s**.
 
 o   Progress: Ongoing
 
