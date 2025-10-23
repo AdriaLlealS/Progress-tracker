@@ -67,9 +67,9 @@ The final expression for $c_{m,D}$ becomes:
 
 $c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z\pm\sqrt{1+14z+z^2}}{12K_r}}$
 
-The main problem of this formula is that in order to solve it we need to know, or to fit with regards to simulation data, the values of $q_D$ and $q_T$. In order to simplify the problem, we can assume that assuming $q_D=q_T$ will not result in significant difference in the surface concentrations. This way, $z^\prime=\frac{1-f}{f}$ and each concentration depends now only on its own $q$. With this approximation, and considering the positive branch of the square root, 
+The main problem of this formula is that in order to solve it we need to know, or to fit with regards to simulation data, the values of $q_D$ and $q_T$. In order to simplify the problem, we can assume that assuming $q_D=q_T$ will not result in significant difference in the surface concentrations. This way, $z^\prime=\frac{1-f}{f}$ and each concentration depends now only on its own $q$. With this approximation, and considering the negative branch of the square root, 
 
-$$c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z^\prime+\sqrt{1+14z^\prime+{z^\prime}^2}}{12K_r}}$$
+$$c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z^\prime-\sqrt{1+14z^\prime+{z^\prime}^2}}{12K_r}}$$
 
 we replicated very well the maximum concentration with respect to the simulation data, for both D and T:
 
