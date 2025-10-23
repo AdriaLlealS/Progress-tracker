@@ -43,9 +43,9 @@ $J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}$
 Since recombination is slow, we can again consider that $J_{{out},D}=q_D\phi_D=q_D f\phi_{imp}$ and $J_{{out},T}=q_T(1-f)\phi_{imp}$. Where for the moment we can not assure that $q_D=q_T$. 
 The new expressions for the recombination become:
 
-$q_D f\phi_{imp}=2K_r c_{s,D}^2+K_r c_{s,D}c_{s,T}$                                 (1)
+$$ q_D f\phi_{imp}=2K_r c_{s,D}^2+K_r c_{s,D}c_{s,T}                                 \hspace{32mm}(1)$$
 
-$q_T(1-f)\phi_{imp}=J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}$           (2)
+ $$q_T(1-f)\phi_{imp}=J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}\hspace{5mm}         (2)$$
 
 From (1) we can isolate $c_{s,T}$ and obtain: 
 
@@ -53,11 +53,11 @@ From (1) we can isolate $c_{s,T}$ and obtain:
 
 And plugging this expression into (2) we obtain a quartic equation on $c_{s,D}$:
 
-$6K_r c_{s,D}^4-(7q_D f\phi+q_T(1-f)\phi)c_{s,D}^2+\frac{2q_D^2f^2\phi^2}{K_r}=0$
+$$6K_r c_{s,D}^4-(7q_D f\phi+q_T(1-f)\phi)c_{s,D}^2+\frac{2q_D^2f^2\phi^2}{K_r}=0$$
 
 Once this equation is solved and we know $c_{s,D}$, we can compute $c_{s,T}$ and our new BCs would become:
 
-$c_{m,D}=\frac{q_D\phi f R_p}{D}+c_{s,D}$,      $c_{m,T}=\frac{q_T\phi (1-f) R_p}{D}+c_{s,T}$
+$$c_{m,D}=\frac{q_D\phi f R_p}{D}+c_{s,D}$,      $c_{m,T}=\frac{q_T\phi (1-f) R_p}{D}+c_{s,T}$$
 
 Returning to the polynomial expression for $c_{s,D}$ , we can do a change of variables and set $x=c_{s,D}^2$ and also $z=\frac{q_T(1-f)}{q_D f}$. Applying the quadratic formula and solving for x we get:
 
