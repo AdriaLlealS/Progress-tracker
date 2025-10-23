@@ -53,13 +53,27 @@ From (1) we can isolate $c_{s,T}$ and obtain:
 
 And plugging this expression into (2) we obtain a quartic equation on $c_{s,D}$:
 
-$6K_r c_{s,D}^4-(7q_D f\phi+q_T(1-f)\phi)+\frac{2q_D^2f^2\phi^2}{K_r}=0$
+$6K_r c_{s,D}^4-(7q_D f\phi+q_T(1-f)\phi)c_{s,D}^2+\frac{2q_D^2f^2\phi^2}{K_r}=0$
 
 Once this equation is solved and we know $c_{s,D}$, we can compute $c_{s,T}$ and our new BCs would become:
 
 $c_{m,D}=\frac{q_D\phi f R_p}{D}+c_{s,D}$,      $c_{m,T}=\frac{q_T\phi (1-f) R_p}{D}+c_{s,T}$
 
-I am currently working on efficiently implementing these new BCs in our multi-isotope model for SS316L. 
+Returning to the polynomial expression for $c_{s,D}$ , we can do a change of variables and set $x=c_{s,D}^2$ and also $z=\frac{q_T(1-f)}{q_D f}$. Applying the quadratic formula and solving for x we get:
+
+$x=q_D f\phi\frac{7+z\pm\sqrt{1+14z+z^2}}{12K_r}$ and therefore $c_{s,D}=\sqrt{q_D f\phi\frac{7+z\pm\sqrt{1+14z+z^2}}{12K_r}}$
+
+The final expression for $c_{m,D}$ becomes:
+
+$c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z\pm\sqrt{1+14z+z^2}}{12K_r}}$
+
+The main problem of this formula is that in order to solve it we need to know, or to fit with regards to simulation data, the values of $q_D$ and $q_T$. In order to simplify the problem, we can assume that assuming $q_D=q_T$ will not result in significant difference in the surface concentrations. This way, $z=\frac{1-f}{f}$ and each concentration depends now only on its own $q$. With this approximation, and considering the positive branch of the square root, we replicated very well the maximum concentration with respect to the simulation data, for both D and T:
+
+ 
+![](figures/simvsanalytic.png)
+
+![](figures/simvsanalyticT.png)
+However, the assumption that we take for the surface concentration that $q_D\approx q_T$ has altered the physical meaning of $q$ and we get now values that are not directly the ratio $\frac{\phi_{rec,i}}{\phi_{imp,i}}$, notice that for instance we get $q_T=1.582$.
 
 An interesting result that I still need to analyze deeper is the following:
 If we assume fast recombination and no cross terms between different isotopes in the recombination equations, we obtain the same surface concentrations that we discussed before:
