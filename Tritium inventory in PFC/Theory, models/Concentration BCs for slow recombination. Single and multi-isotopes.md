@@ -43,9 +43,9 @@ $J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}$
 Since recombination is slow, we can again consider that $J_{{out},D}=q_D\phi_D=q_D f\phi_{imp}$ and $J_{{out},T}=q_T(1-f)\phi_{imp}$. Where for the moment we can not assure that $q_D=q_T$. 
 The new expressions for the recombination become:
 
-$$ q_D f\phi_{imp}=2K_r c_{s,D}^2+K_r c_{s,D}c_{s,T}                                 \hspace{32mm}(1)$$
+$$J_{out,D}= q_D f\phi_{imp}=2K_r c_{s,D}^2+K_r c_{s,D}c_{s,T}                                 \hspace{32mm}(1)$$
 
- $$q_T(1-f)\phi_{imp}=J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}\hspace{5mm}         (2)$$
+ $$J_{{out},T}=q_T(1-f)\phi_{imp}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}\hspace{25mm}         (2)$$
 
 From (1) we can isolate $c_{s,T}$ and obtain: 
 
