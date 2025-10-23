@@ -4,7 +4,7 @@ o   Progress: Ongoing
 
 o   Comments: Previously we saw that for SS316L, with a slow H surface recombination, the approximation for the maximum concentration of mobile H species, that we have been using for Tungsten, was not valid anymore. This previous approximation is:
 
-		        $c_{m,D}=\frac{\phi_D R_p}{D}\hspace{1mm},\hspace{10mm} c_{m,T}=\frac{\phi_T R_p}{D}$ 
+$c_{m,D}=\frac{\phi_D R_p}{D}\hspace{1mm},\hspace{10mm} c_{m,T}=\frac{\phi_T R_p}{D}$ 
 
 with $R_p$ being the average implantation range; $\phi_D=\phi\cdot f_D\hspace{1mm}$,  $\phi_T=\phi\cdot (1-f_D)\hspace{1mm}$ with $\phi$ being the total H implantation flux and $f_D$ the fraction of Deuterium in the plasma. Note that we are assuming all the plasma is composed of Deuterium and Tritium only. This approximation comes from two different assumptions:
 1. Flux to the bulk is approximately zero $\rightarrow$ $\phi=J_{out}=D\frac{c_m-c_s}{R_p}$ 
@@ -13,7 +13,7 @@ Finally we reach $\phi=D\frac{c_m}{R_p}$ or $c_m=\frac{\phi R_p}{D}$.
 
 Instead, if we assume that $c_s\neq0$:
 
-	                 $c_m=\frac{\phi R_p}{D}+\sqrt{\frac{\phi}{K}}$ 
+$c_m=\frac{\phi R_p}{D}+\sqrt{\frac{\phi}{K}}$ 
 
 After applying both approximations for the maximum concentration to SS316L and comparing them with the real results we observed that without the surface concentration term, the maximum concentration was very underestimated. On the other hand, adding that surface concentration term, the maximum concentration is overestimated:
 
