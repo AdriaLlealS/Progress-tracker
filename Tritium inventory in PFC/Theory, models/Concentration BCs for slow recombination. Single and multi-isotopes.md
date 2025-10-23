@@ -67,12 +67,17 @@ The final expression for $c_{m,D}$ becomes:
 
 $c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z\pm\sqrt{1+14z+z^2}}{12K_r}}$
 
-The main problem of this formula is that in order to solve it we need to know, or to fit with regards to simulation data, the values of $q_D$ and $q_T$. In order to simplify the problem, we can assume that assuming $q_D=q_T$ will not result in significant difference in the surface concentrations. This way, $z=\frac{1-f}{f}$ and each concentration depends now only on its own $q$. With this approximation, and considering the positive branch of the square root, we replicated very well the maximum concentration with respect to the simulation data, for both D and T:
+The main problem of this formula is that in order to solve it we need to know, or to fit with regards to simulation data, the values of $q_D$ and $q_T$. In order to simplify the problem, we can assume that assuming $q_D=q_T$ will not result in significant difference in the surface concentrations. This way, $z'=\frac{1-f}{f}$ and each concentration depends now only on its own $q$. With this approximation, and considering the positive branch of the square root, 
+
+$$c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z'\pm\sqrt{1+14z'+z'^2}}{12K_r}}$$
+
+we replicated very well the maximum concentration with respect to the simulation data, for both D and T:
 
  
 ![](figures/simvsanalytic.png)
 
 ![](figures/simvsanalyticT.png)
+
 However, the assumption that we take for the surface concentration that $q_D\approx q_T$ has altered the physical meaning of $q$ and we get now values that are not directly the ratio $\frac{\phi_{rec,i}}{\phi_{imp,i}}$, notice that for instance we get $q_T=1.582$.
 
 An interesting result that I still need to analyze deeper is the following:
