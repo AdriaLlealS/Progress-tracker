@@ -31,14 +31,21 @@ After adding this $q$ factor in the previous SS316L case we obtained much better
 **Slow recombination and multiple isotopes:**
 
   For the case of multiple isotopes the previous approximations are not valid anymore. Let's assume we have an implantation flux with constant proportions of deuterium and tritium so that:
+  
   $\phi_{imp}=\phi_D+\phi_T$,  and  $\phi_D=f\phi_{imp}$,   $\phi_T=(1-f)\phi_{imp}$.
+  
   Notice that with two isotopes, the expressions for the recombination flux become:
-    $J_{{out},D}=2K_r c_{s,D}^2+K_r c_{s,D}c_{s,T}$ 
-    $J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}$ 
+  
+$J_{{out},D}=2K_r c_{s,D}^2+K_r c_{s,D}c_{s,T}$ 
+
+$J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}$ 
+
 Since recombination is slow, we can again consider that $J_{{out},D}=q_D\phi_D=q_D f\phi_{imp}$ and $J_{{out},T}=q_T(1-f)\phi_{imp}$. Where for the moment we can not assure that $q_D=q_T$. 
 The new expressions for the recombination become:
-	$q_D f\phi_{imp}=2K_r c_{s,D}^2+K_r c_{s,D}c_{s,T}$                                 (1)
-	$q_T(1-f)\phi_{imp}=J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}$           (2)
+
+$q_D f\phi_{imp}=2K_r c_{s,D}^2+K_r c_{s,D}c_{s,T}$                                 (1)
+
+$q_T(1-f)\phi_{imp}=J_{{out},T}=2K_r c_{s,T}^2+K_r c_{s,T}c_{s,D}$           (2)
 
 From (1) we can isolate $c_{s,T}$ and obtain: 
 
