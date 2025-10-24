@@ -84,6 +84,15 @@ where $y=\frac{1}{z}=\frac{f}{1-f}$, we found the best values for $q_D$ and $q_T
 We can see that the assumption that $q_D\approx q_T$ seems valid, as we obtained $q_D=0.675$ and $q_T=0.678$. Notice that our analytical expression is able to reproduce accurately the maximum concentration during the ramp-up, the flat-top and the ramp-down of the pulse, with relative errors exceeding 5% during short periods of time.
 
 
+#
+#
+#
+#
+#
+
+
+
+
 An interesting result that I still need to analyze deeper is the following:
 If we assume fast recombination and no cross terms between different isotopes in the recombination equations, we obtain the same surface concentrations that we discussed before:
 $c_{s,D}=\sqrt{\frac{\phi_D}{K_r}}$,     $c_{s,T}=\sqrt{\frac{\phi_T}{K_r}}$ . These would be the surface concentrations for fast recombination case in which the most dominant recomb. term is with its own isotope (which is not valid for SS316L and for very different isotope fractions in the plasma).
