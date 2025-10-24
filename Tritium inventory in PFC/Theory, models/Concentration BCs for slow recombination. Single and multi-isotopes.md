@@ -67,18 +67,22 @@ The final expression for $c_{m,D}$ becomes:
 
 $c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z\pm\sqrt{1+14z+z^2}}{12K_r}}$
 
-The main problem of this formula is that in order to solve it we need to know, or to fit with regards to simulation data, the values of $q_D$ and $q_T$. In order to simplify the problem, we can assume that assuming $q_D=q_T$ will not result in significant difference in the surface concentrations. This way, $z^\prime=\frac{1-f}{f}$ and each concentration depends now only on its own $q$. With this approximation, and considering the negative branch of the square root, 
+The main problem of this formula is that in order to solve it we need to know, or to fit with regards to simulation data, the values of $q_D$ and $q_T$. In order to simplify the problem, I assumed that $q_D=q_T$ (notice that since in our simulations we are using the same diffusion coefficients and energies, this is to be expected). This way, $z=\frac{1-f}{f}$ and each concentration depends now only on its own $q$. With this approximation, and considering the negative branch of the square root, 
 
-$$c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z^\prime-\sqrt{1+14z^\prime+{z^\prime}^2}}{12K_r}}$$
+$$c_{m,D}=\frac{q_D\phi f R_p}{D}+\sqrt{q_D f\phi\frac{7+z-\sqrt{1+14z+z^2}}{12K_r}}$$
 
-we replicated very well the maximum concentration with respect to the simulation data, for both D and T:
+
+$$c_{m,T}=\frac{q_T\phi (1-f) R_p}{D}+\sqrt{q_T (1-f)\phi\frac{7+y-\sqrt{1+14y+{y}^2}}{12K_r}}$$
+
+where $y=\frac{1}{z}=\frac{f}{1-f}$, we found the best values for $q_D$ and $q_T$ so that our analytical expressions for $c_{m,D}$ and $c_{m,T}$ matched the simulation data:
 
  
-![](figures/simvsanalytic.png)
+![](figures/simvsanalytic%202.png)
 
-![](figures/simvsanalyticT.png)
+![](figures/simvsanalyticT%202.png)
 
-However, the assumption that we take for the surface concentration that $q_D\approx q_T$ has altered the physical meaning of $q$ and we get now values that are not directly the ratio $\frac{\phi_{rec,i}}{\phi_{imp,i}}$, notice that for instance we get $q_T=1.582$.
+We can see that the assumption that $q_D\approx q_T$ seems valid, as we obtained $q_D=0.675$ and $q_T=0.678$. Notice that our analytical expression is able to reproduce accurately the maximum concentration during the ramp-up, the flat-top and the ramp-down of the pulse, with relative errors exceeding 5% during short periods of time.
+
 
 An interesting result that I still need to analyze deeper is the following:
 If we assume fast recombination and no cross terms between different isotopes in the recombination equations, we obtain the same surface concentrations that we discussed before:
