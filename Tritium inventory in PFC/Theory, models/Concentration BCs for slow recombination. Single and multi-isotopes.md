@@ -83,20 +83,25 @@ where $y=\frac{1}{z}=\frac{f}{1-f}$, we found the best values for $q_D$ and $q_T
 
 We can see that the assumption that $q_D\approx q_T$ seems valid, as we obtained $q_D=0.675$ and $q_T=0.678$. Notice that our analytical expression is able to reproduce accurately the maximum concentration during the ramp-up, the flat-top and the ramp-down of the pulse, with relative errors exceeding 5% during short periods of time.
 
-
-#
-#
-#
-#
-#
+After running simulations of different scenarios, varying the maximum heat load and the Tritium fraction in the plasma, we saw that this model replicates well the maximum concentration in a wide range of scenarios:
 
 
+![](figures/collage_T0p2.png)
+
+![](figures/collage_T0p7.png)
+
+We can also analyze how do $q_D$ and $q_T$ depend on the heat load and in the Tritium fraction in the plasma:
+
+![](figures/qT_vs_Qmax_extended.png)
+
+From this plot, it seems clear that the higher the isotope fraction in the plasma, the higher its $q$ value, which recall when it was first introduced it meant the ratio $\frac{\phi_{rec}}{\phi_{imp}}$ , that is, what fraction of the implanted H isotope is exiting the material due to recombination.
+
+However, its dependency with the heat load is complex, and we would ideally like to predict $q$ from material parameters, isotopic fractions in the plasma and power level. It is also true that in these power ranges, the minimum and maximum $q_T$ values obtained are very similar, $q_{T,M}=0.686$, $q_{T,m}=0.671$, a relative difference of $2.2\%$. Therefore, using an average value of $q_T$ for all cases might provide results accurate enough.
+
+One of the things that is left to study, is how do these $q_D,\hspace{1mm}q_T$ change after long-term operation, once there is a significant amount of trapped fuel in the material. In previous simulations we saw that the increment in bulk inventory per pulse is decreasing over time, so we probably would expect $q_D,\hspace{1mm}q_T$ to increase with time.
 
 
-An interesting result that I still need to analyze deeper is the following:
-If we assume fast recombination and no cross terms between different isotopes in the recombination equations, we obtain the same surface concentrations that we discussed before:
-$c_{s,D}=\sqrt{\frac{\phi_D}{K_r}}$,     $c_{s,T}=\sqrt{\frac{\phi_T}{K_r}}$ . These would be the surface concentrations for fast recombination case in which the most dominant recomb. term is with its own isotope (which is not valid for SS316L and for very different isotope fractions in the plasma).
 
-However, I found out that we get somewhat 'good' results if then we enforce the maximum concentrations of each isotope to be these surface concentrations:
 
-![](figures/comparison_max_surface_concs(1).png)
+
+
