@@ -131,3 +131,13 @@ However, its dependency with the heat load is complex, and we would ideally like
 
 One of the things that is left to study, is how do these $q_D,\hspace{1mm}q_T$ change after long-term operation, once there is a significant amount of trapped fuel in the material. In previous simulations we saw that the increment in bulk inventory per pulse is decreasing over time, so we probably would expect $q_D,\hspace{1mm}q_T$ to increase with time.
 
+Example of surface concentrations and $q_D$, $q_T$ obtained using the positive branch of the square root:
+
+![](figures/SimvsAnalytic_Q2p5T0p9_plus.png)
+
+Notice how $q_D$ is very close to zero since in order to reproduce the small D surface concentration for this case, when $f=0.1$. Despite the small $q_D$, the analytical value of $c_{s,D}$ is almost $50\%$ higher than the simulated one during the flat-top of the pulse. Tritium concentration shows lower relative error, but still significant, around $15\%$.
+
+On the other hand, these are the results when taking the negative branch as the solution:
+
+![](figures/SimvsAnalytic_Q2p5T0p9.png)
+These results show consistently lower relative errors than before, very close to zero except for the steeper phases of the ramp-up and ramp-down. Additionally, it yields very similar values for $q_D$ and $q_T$, as expected.
