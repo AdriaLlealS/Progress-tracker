@@ -111,7 +111,7 @@ Finally, using the negative branch of the square root to obtain the maximum Deut
 
 $c_{s,D}^{max}=\lim_{f\to1}\sqrt{q_D f\phi\frac{7+z-\sqrt{1+14z+z^2}}{12K_r}}=\sqrt{\frac{2q_D\phi}{3K_r}}$
 
-exactly the same expression that we derived before.
+exactly the same expression that we derived before, showing the consistency of our model and assumptions.
 
 
 After running simulations of different scenarios, varying the maximum heat load and the Tritium fraction in the plasma, we saw that this model replicates well the maximum concentration in a wide range of scenarios:
