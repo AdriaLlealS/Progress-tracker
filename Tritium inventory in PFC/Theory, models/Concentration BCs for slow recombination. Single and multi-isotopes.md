@@ -83,6 +83,37 @@ where $y=\frac{1}{z}=\frac{f}{1-f}$, we found the best values for $q_D$ and $q_T
 
 We can see that the assumption that $q_D\approx q_T$ seems valid, as we obtained $q_D=0.675$ and $q_T=0.678$. Notice that our analytical expression is able to reproduce accurately the maximum concentration during the ramp-up, the flat-top and the ramp-down of the pulse, with relative errors exceeding 5% during short periods of time.
 
+The reason to choose the negative branch of the square root is that it is the only one with appropriate physical meaning. Notice that assuming $q_D$, $\phi$ and $K_r$ are fixed, we expect the surface concentration of deuterium to drop to zero as its fraction $f$ tends to zero. Moreover, we would expect $c_{s,D}$ to be proportional to $f$ when $f$ is close to zero:
+
+$J_D=q_Df\phi=K_rc_{s,D}(2c_{s,D}+c_{s,T})\xrightarrow{f\to0}0\implies c_{s,D}\xrightarrow{f\to0}0\implies J_D=q_Df\phi\approx K_rc_{s,D}c_{s,T}$ 
+
+Returning to our expression for $c_{s,D}$, and taking the limit when $f$ tends to zero:
+
+$\lim_{f\to0}{c_{s,D}}=\lim_{f\to0}\sqrt{q_D f\phi\frac{7+z\pm\sqrt{1+14z+z^2}}{12K_r}}=\lim_{f\to0}\sqrt{\frac{q_D\phi}{12K_r}}\sqrt{7f+(1-f)\pm\sqrt{f^2+14f+(1-f)^2}}$
+
+$=\lim_{f\to0}\sqrt{\frac{q_D\phi}{12K_r}}\sqrt{6f+1\pm\sqrt{2f^2+12f+1}}=\lim_{f\to0}\sqrt{\frac{q_D\phi}{12K_r}}\sqrt{6f+1\pm\sqrt{12f+1}}$
+
+$=\lim_{f\to0}\sqrt{\frac{q_D\phi}{12K_r}}\sqrt{6f+1\pm(6f+1-18f^2)}$
+
+where we took the second order Taylor expansion of the inner square root, and recall $z=\frac{1-f}{f}$. Finally, we can compute both branches of $c_{s,D}$:
+
+$\lim_{f\to0}c_{s,D}^+=\sqrt{\frac{q_D\phi}{6K_r}}$
+
+$\lim_{f\to0}c_{s,D}^-=\sqrt{\frac{q_D\phi}{12K_r}}\sqrt{18f^2}=f\sqrt{\frac{3q_D\phi}{2K_r}}$
+
+Notice how the positive branch yields a constant non-zero surface concentration of Deuterium in the surface even when there is no Deuterium implantation flux, which does not make any physical sense. On the other hand, the negative branch of the square root predicts a Deuterium surface concentration depending linearly on $f$ when $f$ is small, as we expected.
+
+Additionally, we can use this expression to estimate also Deuterium's maximum concentration. Recovering $J_D=q_Df\phi\approx K_rc_{s,D}c_{s,T}$ we can isolate $c_{s,T}=\frac{q_Df\phi}{K_rc_{s,D}}$ . Notice that this expression corresponds to the maximum Tritium surface concentration, as we are assuming that $f$ is close to zero. Substituting $c_{s,D}$ by the expression that we previously found: 
+
+$c_{s,T}^{max}=\sqrt{\frac{2q_D\phi}{3K_r}}=c_{s,D}^{max}$  , since the system should be symmetric with respect the isotopic fractions.
+
+Finally, using the negative branch of the square root to obtain the maximum Deuterium concentration (when $f$ tends to one) we obtain:
+
+$c_{s,D}^{max}=\lim_{f\to1}\sqrt{q_D f\phi\frac{7+z-\sqrt{1+14z+z^2}}{12K_r}}=\sqrt{\frac{2q_D\phi}{3K_r}}$
+
+exactly the same expression that we derived before.
+
+
 After running simulations of different scenarios, varying the maximum heat load and the Tritium fraction in the plasma, we saw that this model replicates well the maximum concentration in a wide range of scenarios:
 
 
@@ -99,9 +130,4 @@ From this plot, it seems clear that the higher the isotope fraction in the plasm
 However, its dependency with the heat load is complex, and we would ideally like to predict $q$ from material parameters, isotopic fractions in the plasma and power level. It is also true that in these power ranges, the minimum and maximum $q_T$ values obtained are very similar, $q_{T,M}=0.686$, $q_{T,m}=0.671$, a relative difference of $2.2\%$. Therefore, using an average value of $q_T$ for all cases might provide results accurate enough.
 
 One of the things that is left to study, is how do these $q_D,\hspace{1mm}q_T$ change after long-term operation, once there is a significant amount of trapped fuel in the material. In previous simulations we saw that the increment in bulk inventory per pulse is decreasing over time, so we probably would expect $q_D,\hspace{1mm}q_T$ to increase with time.
-
-
-
-
-
 

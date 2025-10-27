@@ -43,6 +43,7 @@ $J_T = K_r\hspace{1mm}(2c_{s,T}^2+c_{s,T}c_{s,H}+c_{s,T}c_{s,D})$
 This model is the one used in FESTIM when assigning surface recombination reactions as BCs. Notice that this model allows to consider different reaction rates for each chemical channel. However, even if all recombination coefficients and energies are taken as the same, the total atomic flux depends on isotopic fractions, being maximum when there is only one isotope and minimum when the multiple isotopes are evenly abundant:
 
 ![](figures/j_atoms_heatmap_formula2.png)
+
 I am trying to find literature regarding which model better represents reality. However, since **Model B** allows to define different recombination coefficients for each chemical reaction, and is the one being used by FESTIM, it seems reasonable to assume this is indeed the better model. 
 
 **Model B** is the one that has been used throughout this section:

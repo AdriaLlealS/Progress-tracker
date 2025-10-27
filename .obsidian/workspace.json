@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tritium inventory in PFC/Theory, models/Isotopic recombination fluxes.md",
+                "file": "Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination. Single and multi-isotopes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Isotopic recombination fluxes"
+              "title": "Concentration BCs for slow recombination. Single and multi-isotopes"
             }
           }
         ]
@@ -171,23 +171,24 @@
   },
   "active": "b50e5e432ccd2cef",
   "lastOpenFiles": [
-    "Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination. Single and multi-isotopes.md",
-    "Tritium inventory in PFC/Theory, models/Isotopic recombination fluxes.md",
+    "Tritium inventory in PFC/Theory, models/figures/collage_T0p7.png",
+    "Tritium inventory in PFC/Theory, models/figures/collage_T0p2.png",
+    "Tritium inventory in PFC/Theory, models/figures/comparison_max_surface_concs.png",
+    "Tritium inventory in PFC/Theory, models/figures/comparison_max_surface_concs 1.png",
+    "Tritium inventory in PFC/Theory, models/figures/comparison_max_surface_concs(1).png",
     "Tritium inventory in PFC/Theory, models/figures/j_atoms_heatmap_formula2.png",
+    "Tritium inventory in PFC/Theory, models/figures/Pasted image 20251016100615.png",
+    "Tritium inventory in PFC/Theory, models/figures/qT_vs_Qmax_extended.png",
+    "Tritium inventory in PFC/Theory, models/figures/qT_vs_Qmax_Tfrac.png",
+    "Tritium inventory in PFC/Theory, models/Isotopic recombination fluxes.md",
+    "Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination. Single and multi-isotopes.md",
     "Tritium inventory in PFC/Theory, models/SS316L Validation of implantation flux approximation.md",
     "Tritium inventory in PFC/Theory, models/Implantation flux and depth.md",
     "Tritium inventory in PFC/Theory, models/Analyze trap occupancy rates over time.md",
     "Tritium inventory in PFC/Theory, models/Analytical expression for long-term bulk inventory build-up.md",
     "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
-    "Tritium inventory in PFC/Theory, models/figures/qT_vs_Qmax_extended.png",
-    "Tritium inventory in PFC/Theory, models/figures/qT_vs_Qmax_Tfrac.png",
-    "Tritium inventory in PFC/Theory, models/figures/collage_T0p7.png",
-    "Tritium inventory in PFC/Theory, models/figures/collage_T0p2.png",
     "Tritium inventory in PFC/Theory, models/figures/simvsanalyticT 2.png",
     "Tritium inventory in PFC/Theory, models/figures/simvsanalytic 2.png",
-    "Tritium inventory in PFC/Theory, models/figures/simvsanalytic.png",
-    "Tritium inventory in PFC/Theory, models/figures/simvsanalytic 1.png",
-    "Tritium inventory in PFC/Theory, models/figures/simvsanalyticT 1.png",
     "Tritium inventory in PFC/To do.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Run restart simulations and compare inventory results with FESTIM-1's simulations.md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-1/Run 100 consecutive sims of pulse+ waiting time.md",
