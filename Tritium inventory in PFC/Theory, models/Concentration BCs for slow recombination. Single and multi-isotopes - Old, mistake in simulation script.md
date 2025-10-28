@@ -165,7 +165,11 @@ Since the term of the surface concentration depends on: $c_s \propto \sqrt{q},$ 
 $$c_{m,D}=\frac{\phi f R_p}{D}+\sqrt{ f\phi\frac{7+z-\sqrt{1+14z+z^2}}{12K_r}}$$
 
 
+
+
 $$c_{m,T}=\frac{\phi (1-f) R_p}{D}+\sqrt{ (1-f)\phi\frac{7+y-\sqrt{1+14y+{y}^2}}{12K_r}}$$
+
+
 The results obtained with this simpler model without need of computing or estimating any $q$ value are as good as the previous ones:
 
 ![](figures/SimvsAnalytic_Q0p9T0p7q1.png)
