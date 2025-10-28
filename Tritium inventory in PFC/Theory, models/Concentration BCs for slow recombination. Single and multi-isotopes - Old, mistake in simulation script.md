@@ -184,3 +184,8 @@ We can also compare the analytical expressions for the surface concentrations $c
 ![](figures/SimvsAnalytic_Q0p9T0p7c_surf.png)
 
 Aside from being able to take $q_D=q_T=1$, the previous analysis and derivations are valid, since no condition on $q$ was imposed (aside from being between zero and one). The justification of taking the negative branch of the square root and the minimum and maximum surface concentration expressions are correct and should be changed just by forcing $q_D,q_T=1$. 
+
+Here we can see how during the flat-top, the real $q_D,q_T$ values are very close to but slightly lower than one:
+
+![](figures/fluxes_and_q(1).png)
+Notice that this plot is very helpful to understand the different stages happening during the pulse. When $q_i<1$ it means that the recombination flux at the surface is lower than the implantation flux and, therefore, there is an inventory build-up of the isotope $i$. When $q_i=1$ , it means that the time derivative of the inventory is zero, that is, the recombination flux is exactly the same as the implantation flux. Finally, when $q_i>1$ it means that the time derivative of the inventory is actually negative, so the recombination flux at the surface is higher than the implantation flux, leading to hydrogen inventory depletion.
