@@ -1,6 +1,6 @@
 ·    **Try to analytically compute surface concentrations of mobile D and T from a fixed isotopic fraction in the plasma. Think how to implement this as a BC for slow recombination materials**.
 
-o   Progress: Ongoing
+o   Progress: Done
 
 o   Comments: Previously we saw that for SS316L, with a slow H surface recombination, the approximation for the maximum concentration of mobile H species, that we have been using for Tungsten, was not valid anymore. This previous approximation is:
 
@@ -140,4 +140,34 @@ Notice how $q_D$ is very close to zero since in order to reproduce the small D s
 On the other hand, these are the results when taking the negative branch as the solution:
 
 ![](figures/SimvsAnalytic_Q2p5T0p9.png)
-These results show consistently lower relative errors than before, very close to zero except for the steeper phases of the ramp-up and ramp-down. Additionally, it yields very similar values for $q_D$ and $q_T$, as expected.
+These results show consistently lower relative errors than before, very close to zero except for the steeper phases of the ramp-up and ramp-down. Additionally, it yields very similar values for $q_D$ 
+and $q_T$, as expected.
+
+**Explanation of the Discrepancy in $q$ Values** 
+
+Initially, when comparing the analytical expressions for the maximum concentrations $c_{m,D} = \dfrac{q_D \phi f R_p}{D} + \sqrt{ q_D f \phi \, \dfrac{7+z-\sqrt{1+14z+z^2}}{12K_r} }$ and $c_{m,T} = \dfrac{q_T \phi (1-f) R_p}{D} + \sqrt{ q_T (1-f) \phi \, \dfrac{7+y-\sqrt{1+14y+y^2}}{12K_r} },$ 
+
+to simulation results, the best-fit values for $q_D$ and $q_T$ were around $0.68$. This suggested that $q$ was significantly less than $1$.
+
+**Manual Check of $q(t)$** 
+To verify this, I manually computed $q(t)$ at each time step using the definition: $q(t) = 1 - \dfrac{\dfrac{dI}{dt}}{\phi(t)},$ where $I(t)$ is the total inventory and $\phi(t)$ is the implantation flux. The derivative $\dfrac{dI}{dt}$ was obtained numerically from the inventory evolution in the simulation. Surprisingly, this calculation showed that: $q(t) \approx 0.97 \text{ to } 0.99 \quad \text{almost everywhere}.$ 
+
+**Final error** 
+This discrepancy led me to inspect the simulation script, where I found that the implantation flux had been unintentionally scaled by a factor of $0.7$: $\phi_{\text{sim}} = 0.7 \, \phi.$ Because the analytical model used the correct flux $\phi$, the fitting procedure compensated for the lower simulated flux by reducing $q$: $q_{\text{fit}} \approx 0.68 \approx 0.7.$ 
+
+**Corrected simulations and refit** 
+After removing the scaling factor and re-running the simulations with: $\phi_{\text{sim}} = \phi,$ I applied the same fitting procedure (minimizing the sum of squared errors between analytical and simulated concentrations). The resulting best-fit values were: $q_D \approx q_T \approx 1.00,$ confirming that $q \approx 1$ is a valid assumption. 
+
+**Impact on the Model** 
+Since the term of the surface concentration depends on: $c_s \propto \sqrt{q},$ forcing $q = 1$ does not significantly degrade the accuracy of the analytical predictions. Therefore the model is further simplified and we can use the same equations described above with $q_D = q_T =1$:
+
+
+$$c_{m,D}=\frac{\phi f R_p}{D}+\sqrt{ f\phi\frac{7+z-\sqrt{1+14z+z^2}}{12K_r}}$$
+
+
+$$c_{m,T}=\frac{\phi (1-f) R_p}{D}+\sqrt{ (1-f)\phi\frac{7+y-\sqrt{1+14y+{y}^2}}{12K_r}}$$
+The results obtained with this simpler model without need of computing or estimating any $q$ value are as good as the previous ones:
+
+![](figures/SimvsAnalytic_Q0p9T0p7q1.png)
+
+Aside from being able to take $q_D=q_T=1$, the previous analysis and derivations are valid, since no condition on $q$ was imposed (aside from being between zero and one). The justification of taking the negative branch of the square root and the minimum and maximum surface concentration expressions are correct and should be changed just by forcing $q_D,q_T=1$. 
