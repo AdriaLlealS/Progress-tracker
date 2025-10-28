@@ -174,4 +174,13 @@ The results obtained with this simpler model without need of computing or estima
 
 ![](figures/SimvsAnalytic_Q0p9T0p7q1.png)
 
+
+
+![](figures/SimvsAnalytic_Q0p9T0p7.png)
+As we can see there is no significant difference in the results of the maximum concentration when taking $q_D,q_T=1$ than when we find the best $q_D,q_T$ by minimizing the sum of squared errors. In this later case we obtained $q_D=0.97$ and $q_T=0.973$, very close values to one. 
+
+We can also compare the analytical expressions for the surface concentrations $c_{s,D},c_{s,T}$ with our simulation results:
+
+![](figures/SimvsAnalytic_Q0p9T0p7c_surf.png)
+
 Aside from being able to take $q_D=q_T=1$, the previous analysis and derivations are valid, since no condition on $q$ was imposed (aside from being between zero and one). The justification of taking the negative branch of the square root and the minimum and maximum surface concentration expressions are correct and should be changed just by forcing $q_D,q_T=1$. 

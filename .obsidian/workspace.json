@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination. Single and multi-isotopes - Old, mistake in simulation script.md",
+                "file": "Tritium inventory in PFC/To do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concentration BCs for slow recombination. Single and multi-isotopes - Old, mistake in simulation script"
+              "title": "To do"
             }
           }
         ]
@@ -171,9 +171,11 @@
   },
   "active": "b50e5e432ccd2cef",
   "lastOpenFiles": [
+    "Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination. Single and multi-isotopes - Old, mistake in simulation script.md",
+    "Tritium inventory in PFC/Theory, models/figures/SimvsAnalytic_Q0p9T0p7c_surf.png",
+    "Tritium inventory in PFC/Theory, models/figures/SimvsAnalytic_Q0p9T0p7.png",
     "Tritium inventory in PFC/Theory, models/figures/SimvsAnalytic_Q0p9T0p7q1.png",
     "Tritium inventory in PFC/Theory, models/Untitled.md",
-    "Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination. Single and multi-isotopes - Old, mistake in simulation script.md",
     "Tritium inventory in PFC/Theory, models/figures/SimvsAnalytic_Q2p5T0p9.png",
     "Tritium inventory in PFC/Theory, models/figures/SimvsAnalytic_Q2p5T0p9_plus.png",
     "Tritium inventory in PFC/Theory, models/figures/collage_T0p7.png",
@@ -181,9 +183,6 @@
     "Tritium inventory in PFC/Theory, models/figures/comparison_max_surface_concs.png",
     "Tritium inventory in PFC/Theory, models/figures/comparison_max_surface_concs 1.png",
     "Tritium inventory in PFC/Theory, models/figures/comparison_max_surface_concs(1).png",
-    "Tritium inventory in PFC/Theory, models/figures/j_atoms_heatmap_formula2.png",
-    "Tritium inventory in PFC/Theory, models/figures/Pasted image 20251016100615.png",
-    "Tritium inventory in PFC/Theory, models/figures/qT_vs_Qmax_extended.png",
     "Tritium inventory in PFC/Theory, models/Isotopic recombination fluxes.md",
     "Tritium inventory in PFC/Theory, models/SS316L Validation of implantation flux approximation.md",
     "Tritium inventory in PFC/Theory, models/Implantation flux and depth.md",
