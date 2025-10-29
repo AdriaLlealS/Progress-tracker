@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Implementation of mobile concentration Dirichlet BC in SS316L (slow recombination-multiple isotopes).md",
+                "file": "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Implementation of mobile concentration Dirichlet BC in SS316L.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Implementation of mobile concentration Dirichlet BC in SS316L (slow recombination-multiple isotopes)"
+              "title": "Implementation of mobile concentration Dirichlet BC in SS316L"
             }
           }
         ]
@@ -172,11 +172,11 @@
   "active": "b50e5e432ccd2cef",
   "lastOpenFiles": [
     "Tritium inventory in PFC/Last updates (ongoing or done tasks).md",
+    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Implementation of mobile concentration Dirichlet BC in SS316L.md",
     "Tritium inventory in PFC/To do.md",
     "Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination and multi-isotopes - Corrected version.md",
     "Tritium inventory in PFC/Theory, models/OLD - Concentration BCs for slow recombination. Single and multi-isotopes - Old, mistake in simulation script.md",
     "Tritium inventory in PFC/Theory, models/Isotopic recombination fluxes.md",
-    "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Implementation of mobile concentration Dirichlet BC in SS316L (slow recombination-multiple isotopes).md",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/inventory_comparison3.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/inventory_comparison4 1.png",
     "Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/figures/inventory_comparison4.png",

@@ -8,7 +8,16 @@ I have kept the old version in which I briefly discuss where the error was and t
 
 **Implementation of new BC in SS316L:**
 After finishing with the analytical equations for the surface and maximum mobile concentrations for slow recombination and multiple isotopes, I implemented them in our simulations and compared results with the original simulations (using a recombination flux boundary condition)
-[Progress-tracker/Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Implementation of mobile concentration Dirichlet BC in SS316L (slow recombination + multiple isotopes).md at main · AdriaLlealS/Progress-tracker](https://github.com/AdriaLlealS/Progress-tracker/blob/main/Tritium%20inventory%20in%20PFC/FESTIM_simulations/FESTIM-2/Implementation%20of%20mobile%20concentration%20Dirichlet%20BC%20in%20SS316L%20\(slow%20recombination%20%2B%20multiple%20isotopes\).md)
+[Progress-tracker/Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Implementation of mobile concentration Dirichlet BC in SS316L (slow recombination-multiple isotopes).md at main · AdriaLlealS/Progress-tracker](https://github.com/AdriaLlealS/Progress-tracker/blob/main/Tritium%20inventory%20in%20PFC/FESTIM_simulations/FESTIM-2/Implementation%20of%20mobile%20concentration%20Dirichlet%20BC%20in%20SS316L%20\(slow%20recombination-multiple%20isotopes\).md)
+
+
+[Progress-tracker/Tritium inventory in PFC/FESTIM_simulations/FESTIM-2/Implementation of mobile concentration Dirichlet BC in SS316L (slow recombination-multiple isotopes).md at main · AdriaLlealS/Progress-tracker](https://github.com/AdriaLlealS/Progress-tracker/blob/main/Tritium%20inventory%20in%20PFC/FESTIM_simulations/FESTIM-2/Implementation%20of%20mobile%20concentration%20Dirichlet%20BC%20in%20SS316L%20\(slow%20recombination-multiple%20isotopes\).md)
+
+
+
+
+
+
 
 
 
