@@ -1,5 +1,7 @@
 
-Concentration BCs for slow recombination. Single and multi-isotopes
+
+
+Corrected version of Concentration BCs for slow recombination. Single and multi-isotopes:
 [Progress-tracker/Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination. Single and multi-isotopes.md at main · AdriaLlealS/Progress-tracker](https://github.com/AdriaLlealS/Progress-tracker/blob/main/Tritium%20inventory%20in%20PFC/Theory%2C%20models/Concentration%20BCs%20for%20slow%20recombination.%20Single%20and%20multi-isotopes.md)
 
 Run restart simulations and compare inventory results with FESTIM-1's simulations:
