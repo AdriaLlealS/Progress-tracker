@@ -39,3 +39,9 @@ It still remains to study how do these discrepancies change in the long-term. Ho
 One way to solve this discrepancies would be to study how does the surface concentration evolve in the simulations with the recombination flux BC, and try to come up with an analytical expression for it which can be later added as a Dirichlet BC during the waiting time, instead of just letting $c_{s,D},c_{s,T}$ be zero.
 
 Finally I would like to remark that this issue was not present in the Tungsten simulations as those cases involve much faster recombination, and the assumption that $c_{s,D},c_{s,T}=0$ is good enough.
+
+**Long-term inventory comparison**
+
+I ran 100 concatenated simulations of ~600 s of flat-top plasma pulse followed by roughly 100,000 s of waiting time for 15 different cases in SS316L (combinations of different powers and tritium fractions in the plasma). These simulations were run with the new BC in which we set the surface mobile concentrations to the maximum concentration given by our analytical equation (see [Progress-tracker/Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination and multi-isotopes - Corrected version.md at main · AdriaLlealS/Progress-tracker](https://github.com/AdriaLlealS/Progress-tracker/blob/main/Tritium%20inventory%20in%20PFC/Theory%2C%20models/Concentration%20BCs%20for%20slow%20recombination%20and%20multi-isotopes%20-%20Corrected%20version.md))
+
+The same simulations need to be run with the recombination flux BC, and both simulation times and total inventory results should be compared.
