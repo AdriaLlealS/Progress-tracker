@@ -55,3 +55,5 @@ Similarly, for the total Tritium inventories as a function of $Q_{max}$ and $T_{
 
 ![](figures/total_T_vs_Qmax_log.png)
 
+In order to mitigate this huge discrepancies,
+![](figures/relative_error_T_vs_Qmax.png)
