@@ -50,3 +50,8 @@ Here we can be the results for the best and the worst scenario, in terms of the 
 Following the previous explanation, in which we state that the discrepancy in Tritium inventories is mainly due to the unrealistic assumption that the surface concentrations of mobile species drop to zero after the pulse, we would expect the relative errors to be higher for the cases in which we have lower values of the maximum T mobile concentration at 672 s. Here is a summary of the relative errors in Tritium inventory after the 100 consecutive pulses, as a function of $Q_{max}$ and for different Tritium fractions in the plasma $T_{frac}$:
 
 ![](figures/relative_error_vs_heat_load.png)
+
+Similarly, for the total Tritium inventories as a function of $Q_{max}$ and $T_{frac}$, we obtained the following results with the Recombination BC, which were used as reference for the relative errors:
+
+![](figures/total_T_vs_Qmax_log.png)
+
