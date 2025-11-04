@@ -42,6 +42,11 @@ Finally I would like to remark that this issue was not present in the Tungsten s
 
 **Long-term inventory comparison**
 
-I ran 100 concatenated simulations of ~600 s of flat-top plasma pulse followed by roughly 100,000 s of waiting time for 15 different cases in SS316L (combinations of different powers and tritium fractions in the plasma). These simulations were run with the new BC in which we set the surface mobile concentrations to the maximum concentration given by our analytical equation (see [Progress-tracker/Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination and multi-isotopes - Corrected version.md at main · AdriaLlealS/Progress-tracker](https://github.com/AdriaLlealS/Progress-tracker/blob/main/Tritium%20inventory%20in%20PFC/Theory%2C%20models/Concentration%20BCs%20for%20slow%20recombination%20and%20multi-isotopes%20-%20Corrected%20version.md))
+I ran 100 concatenated simulations of ~600 s of flat-top plasma pulse followed by roughly 100,000 s of waiting time for 15 different cases in SS316L (combinations of different powers and tritium fractions in the plasma). These simulations were run with the new BC in which we set the surface mobile concentrations to the maximum concentration given by our analytical equation (see [Progress-tracker/Tritium inventory in PFC/Theory, models/Concentration BCs for slow recombination and multi-isotopes - Corrected version.md at main · AdriaLlealS/Progress-tracker](https://github.com/AdriaLlealS/Progress-tracker/blob/main/Tritium%20inventory%20in%20PFC/Theory%2C%20models/Concentration%20BCs%20for%20slow%20recombination%20and%20multi-isotopes%20-%20Corrected%20version.md)) and also with the old recombination flux BC, which should give the most realistic results. 
 
-The same simulations need to be run with the recombination flux BC, and both simulation times and total inventory results should be compared.
+Here we can be the results for the best and the worst scenario, in terms of the relative error of the new BC simulations with respect to the old recombination flux BC:
+
+![](figures/Q_0p1-T_0p1_comparison.png)![](figures/Q_0p9-T_0p7_comparison.png)
+Following the previous explanation, in which we state that the discrepancy in Tritium inventories is mainly due to the unrealistic assumption that the surface concentrations of mobile species drop to zero after the pulse, we would expect the relative errors to be higher for the cases in which we have lower values of the maximum T mobile concentration at 672 s. Here is a summary of the relative errors in Tritium inventory after the 100 consecutive pulses, as a function of $Q_{max}$ and for different Tritium fractions in the plasma $T_{frac}$:
+
+![](figures/relative_error_vs_heat_load.png)
