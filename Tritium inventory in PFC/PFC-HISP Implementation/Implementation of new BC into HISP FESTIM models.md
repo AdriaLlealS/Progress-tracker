@@ -4,7 +4,7 @@ o   Progress: Ongoing. Now I need to implement the latest version of festim-fe
 
 o   Comments: The new BC has already been implemented modifying the festim models on HISP. After that, the capability test scenario was run for all bins with the old and the new models, and these are some useful analysis on the different runtimes:
 
-Overall maximum runtime:
+**Overall maximum runtime:**
 
   Job:       bin_15_shadowed_695205
   
@@ -16,7 +16,7 @@ Overall maximum runtime:
   
 
 
-Maximum runtime with Old BC:
+**Maximum runtime with Old BC:**
 
   Job:       bin_15_shadowed_695205
   
@@ -28,7 +28,7 @@ Maximum runtime with Old BC:
   
 
 
-Maximum runtime with New BC:
+**Maximum runtime with New BC:**
 
   Job:       bin_15_shadowed_696753
   
@@ -40,7 +40,7 @@ Maximum runtime with New BC:
   
 
 
-Maximum runtime for W:
+**Maximum runtime for W:**
 
   Job:       bin_7_low_wetted_695184
   
@@ -52,7 +52,7 @@ Maximum runtime for W:
   
 
 
-Maximum runtime for B:
+**Maximum runtime for B:**
 
   Job:       bin_15_shadowed_695205
   
@@ -64,7 +64,7 @@ Maximum runtime for B:
   
 
 
-Maximum runtime W, New BC:
+**Maximum runtime W, New BC:**
 
   Job:       bin_5_low_wetted_696726
   
@@ -76,7 +76,7 @@ Maximum runtime W, New BC:
   
 
 
-Maximum runtime W, Old BC:
+**Maximum runtime W, Old BC:**
 
   Job:       bin_7_low_wetted_695184
   
@@ -88,7 +88,7 @@ Maximum runtime W, Old BC:
   
 
 
-Maximum runtime B, New BC:
+**Maximum runtime B, New BC:**
 
   Job:       bin_15_shadowed_696753
   
@@ -100,7 +100,7 @@ Maximum runtime B, New BC:
   
 
 
-Maximum runtime B, Old BC:
+**Maximum runtime B, Old BC:**
 
   Job:       bin_15_shadowed_695205
   
@@ -112,7 +112,7 @@ Maximum runtime B, Old BC:
   
 
 
-Averages:
+**Averages:**
 
   W, New BC: 17047.85 s (4:44:08)
   
