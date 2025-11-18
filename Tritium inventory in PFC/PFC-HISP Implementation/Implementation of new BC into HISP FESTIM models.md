@@ -15,6 +15,7 @@ Overall maximum runtime:
   Runtime:   191402 s  (2 days, 5:10:02)
   
 
+
 Maximum runtime with Old BC:
 
   Job:       bin_15_shadowed_695205
@@ -25,6 +26,7 @@ Maximum runtime with Old BC:
   
   Runtime:   191402 s  (2 days, 5:10:02)
   
+
 
 Maximum runtime with New BC:
 
@@ -37,6 +39,7 @@ Maximum runtime with New BC:
   Runtime:   66771 s  (18:32:51)
   
 
+
 Maximum runtime for W:
 
   Job:       bin_7_low_wetted_695184
@@ -47,6 +50,7 @@ Maximum runtime for W:
   
   Runtime:   34566 s  (9:36:06)
   
+
 
 Maximum runtime for B:
 
@@ -59,6 +63,7 @@ Maximum runtime for B:
   Runtime:   191402 s  (2 days, 5:10:02)
   
 
+
 Maximum runtime W, New BC:
 
   Job:       bin_5_low_wetted_696726
@@ -69,6 +74,7 @@ Maximum runtime W, New BC:
   
   Runtime:   20899 s  (5:48:19)
   
+
 
 Maximum runtime W, Old BC:
 
@@ -81,6 +87,7 @@ Maximum runtime W, Old BC:
   Runtime:   34566 s  (9:36:06)
   
 
+
 Maximum runtime B, New BC:
 
   Job:       bin_15_shadowed_696753
@@ -92,6 +99,7 @@ Maximum runtime B, New BC:
   Runtime:   66771 s  (18:32:51)
   
 
+
 Maximum runtime B, Old BC:
 
   Job:       bin_15_shadowed_695205
@@ -102,6 +110,7 @@ Maximum runtime B, Old BC:
   
   Runtime:   191402 s  (2 days, 5:10:02)
   
+
 
 Averages:
 
